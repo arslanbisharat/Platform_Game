@@ -3,6 +3,7 @@ This is Microverse's final project in Javascript's course.
 
 In this project, I build a Platform game using JavaScript's framework, a "fast, free and fun open-source framework for Canvas and WebGL powered browser games".
 
+[ScreenShot](sc.png)
 ## Table of Contents
 
 - [JavaScript Capstone Project: Build a Platform Game](#javascript-capstone-project-build-a-Platform-game)
