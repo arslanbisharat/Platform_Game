@@ -5,11 +5,10 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "w-jest": "jest --watch",
-    "dev": "webpack --mode development",
-    "server": "webpack-dev-server",
-    "build": "webpack --mode production",
-    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js"
+    "build": "webpack --config prod.config.js",
+    "start:dev": "webpack-dev-server",
+    "watch": "webpack --watch",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",

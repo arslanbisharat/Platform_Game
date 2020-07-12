@@ -5,7 +5,7 @@ export default class BootScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('logo', 'https://res.cloudinary.com/dl-cultures/image/upload/v1588612118/logo/HeroLogo.svg');
+    this.load.image('logo', 'https://res.cloudinary.com/drjntqw8r/image/upload/v1594520652/sample.jpg ');
   }
 
   create() {
