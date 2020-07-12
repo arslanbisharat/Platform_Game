@@ -5,12 +5,35 @@ export default class PreloadScene extends Phaser.Scene {
     super('Preload');
   }
 
-
   preload() {
-    this.load.image('playGame', '../src/assets/ui/play-game.png');
-    this.load.image('settings', '../src/assets/ui/settings.png');
-    this.load.image('credits', '../src/assets/ui/credits.png');
-    this.load.image('sky', '../src/assets/sky.png');
+    this.load.image('playGame', './assets/ui/play-game.png');
+    this.load.image('settings', './assets/ui/settings.png');
+    this.load.image('credits', './assets/ui/credits.png');
+    this.load.image('scores', './assets/ui/score.png');
+    this.load.image('back', './assets/ui/back.png');
+    this.load.image('checkedBox', './assets/ui/checked.png');
+    this.load.image('box', './assets/ui/unchecked.png');
+    this.load.image('emptyTag', './assets/ui/empty-tag.png');
+    this.load.image('sky', './assets/sky.png');
+    //
+    // GAME
+    //
+    this.load.image('replay', './assets/game/replay.png');
+    this.load.image('submit', './assets/game/submit.png');
+    this.load.image('endGame', './assets/game/endgame.png');
+    this.load.image('stars', './assets/game/star.png');
+    this.load.image('ground', './assets/game/ground.png');
+    this.load.image('menu', './assets/game/menu.png');
+    this.load.image('star', './assets/game/star2.png');
+    this.load.image('bigStar', './assets/game/star3.png');
+    this.load.spritesheet('face', 'assets/game/metalface78x92.png',
+      { frameWidth: 78, frameHeight: 92 });
+    this.load.spritesheet('heroRun', './assets/game/hero2.png',
+      { frameWidth: 24, frameHeight: 25 });
+    this.load.spritesheet('heroStand', './assets/game/hero1.png',
+      { frameWidth: 22, frameHeight: 25 });
+
+    this.load.audio('bgMusic', './assets/ui/bgMusic.mp3');
 
     this.add.image(GAME_WIDTH / 2, GAME_HEIGHT / 2, 'logo');
     // display progress bar
@@ -54,8 +77,8 @@ export default class PreloadScene extends Phaser.Scene {
 
     // update progress bar
     this.load.on('progress', (value) => {
-      const tempVal = parseInt(value, 10);
-      percentText.setText(`${(tempVal * 100)}%`);
+      // eslint-disable-next-line radix
+      percentText.setText(`${parseInt(value * 100)}%`);
       progressBar.clear();
       progressBar.fillStyle(0xffffff, 1);
       progressBar.fillRect(250, 280, 300 * value, 30);
