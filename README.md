@@ -129,5 +129,15 @@ To create this game I used:
 [Microverse][mcvs]
 
 
+<!-- Links -->
+[assignment]: https://www.notion.so/Shooter-game-203e819041c7486bb36f9e65faecba27
+[live-version]: https://starwars-spaceshooter.herokuapp.com/
+[phaser-url]: https://phaser.io/
+[sg-tutorial]: https://learn.yorkcs.com/category/tutorials/gamedev/phaser-3/build-a-space-shooter-with-phaser-3/
+[LB-API]: https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
+[mcvs]: https://www.microverse.org/
+[mast]: https://raw.githubusercontent.com/phalado/JS-Capstone/development/Images/masteryBadge.png
+
+
 
 
