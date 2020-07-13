@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "start:dev": "webpack-dev-server",   
+    "start:dev": "webpack-dev-server",
     "start": "node server.js",
     "watch": "webpack --watch",
     "lint": "eslint"
