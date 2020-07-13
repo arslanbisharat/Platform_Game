@@ -77,8 +77,7 @@ To create this game I used:
 * [Heroku](https://www.heroku.com/) for the deployment
 * [Leaderboard API service][LB-API] for the leaderboard
 ## Video presentation
-
-Password: jscapstone
+![video][video]
 
 ## Future Work
 
