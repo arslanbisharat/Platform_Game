@@ -12,7 +12,7 @@
     "lint": "eslint"
   },
   "engines" : {
-     "node" : ">=12.17.0" 
+     "node" : "12.17.0" 
   },
   "repository": {
     "type": "git",
