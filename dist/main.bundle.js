@@ -213,7 +213,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return BootScene; });\n// eslint-disable-next-line no-undef\nclass BootScene extends Phaser.Scene {\n  constructor() {\n    super('Boot');\n  }\n\n  preload() {\n    this.load.image('logo', 'https://res.cloudinary.com/drjntqw8r/image/upload/v1594520896/icon_pcobh5.jpg ');\n  }\n\n  create() {\n    this.scene.start('Preload');\n  }\n}\n\n//# sourceURL=webpack:///./src/scenes/boot.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return BootScene; });\n// eslint-disable-next-line no-undef\nclass BootScene extends Phaser.Scene {\n  constructor() {\n    super('Boot');\n  }\n\n  preload() {\n    this.load.image('logo', 'https://res.cloudinary.com/drjntqw8r/image/upload/v1594610977/sky_kflukv.jpg ');\n  }\n\n  create() {\n    this.scene.start('Preload');\n  }\n}\n\n//# sourceURL=webpack:///./src/scenes/boot.js?");
 
 /***/ }),
 
