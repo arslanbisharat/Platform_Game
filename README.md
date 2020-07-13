@@ -78,6 +78,7 @@ To create this game I used:
 * [Leaderboard API service][LB-API] for the leaderboard
 ## Video presentation
 
+Password: jscapstone
 
 ## Future Work
 
@@ -132,10 +133,11 @@ To create this game I used:
 
 <!-- Links -->
 [live-version]: https://js-pkg.herokuapp.com/
-[assignment]: https://www.notion.so/Shooter-game-203e819041c7486bb36f9e65faecba27
-[live-version]: https://starwars-spaceshooter.herokuapp.com/
+[video]: https://www.loom.com/share/bf0864959fe94b3f90dd6a68cd8b1047
+[assignment]: https://www.notion.so/microverse/Platform-game-4a55a7d1fcc245bcb012c76814764712
+[live-version]: https://js-pkg.herokuapp.com/
 [phaser-url]: https://phaser.io/
-[sg-tutorial]: https://learn.yorkcs.com/category/tutorials/gamedev/phaser-3/build-a-space-shooter-with-phaser-3/
+[sg-tutorial]: https://www.emanueleferonato.com/tag/endless-runner/
 [LB-API]: https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3
 [mcvs]: https://www.microverse.org/
 [mast]: https://raw.githubusercontent.com/phalado/JS-Capstone/development/Images/masteryBadge.png
