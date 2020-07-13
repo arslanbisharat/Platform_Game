@@ -131,6 +131,7 @@ To create this game I used:
 
 
 <!-- Links -->
+[live-version]: https://js-pkg.herokuapp.com/
 [assignment]: https://www.notion.so/Shooter-game-203e819041c7486bb36f9e65faecba27
 [live-version]: https://starwars-spaceshooter.herokuapp.com/
 [phaser-url]: https://phaser.io/
