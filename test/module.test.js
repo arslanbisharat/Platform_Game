@@ -2,13 +2,6 @@ import ApiGet from '../src/module/api';
 import User from '../src/module/user';
 import Sound from '../src/module/sound';
 
-describe('test', () => {
-  it('Return "Hello World!"', () => {
-    const test = 'Hello World!';
-    expect(test).toBe('Hello World!');
-  });
-});
-
 describe('Test Api', () => {
   it('Return succeeded message', async () => {
     ApiGet('GET')
@@ -38,7 +31,6 @@ describe('Test User Module', () => {
     expect(user.score).toBe(100);
   });
 });
-
 
 describe('Test Sound Module', () => {
   const sound = new Sound();

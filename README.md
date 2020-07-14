@@ -3,7 +3,7 @@ This is Microverse's final project in Javascript's course.
 
 In this project, I build a Platform game using JavaScript's framework, a "fast, free and fun open-source framework for Canvas and WebGL powered browser games".
 
-[ScreenShot](sc.png)
+![ScreenShot](sc.png)
 ## Table of Contents
 
 - [JavaScript Capstone Project: Build a Platform Game](#javascript-capstone-project-build-a-Platform-game)
@@ -42,7 +42,7 @@ This is a simple endless runner. Enemies appear walking towards you, some pursue
 
 First the most important: how to play.
 
-The commands were explained in the previous section **![wasd][wasd]** to move ![space][space] to shoot.
+You can move right and left using right and left arrows, respectively and to jump use space.
 
 
 You can play the game online clicking [here][live-version] or locally following these steps:
@@ -58,9 +58,24 @@ You can play the game online clicking [here][live-version] or locally following 
 ### Design
 
 First of all: this is a simple pixel game. You can't expect to see high-quality graphics. Or medium-quality graphics... So, the ship's designs are just a low-quality version of the orignal design.
+
+The game is based on [Endless Runner Game](https://www.gamasutra.com/blogs/BenChong/20150112/233958/Endless_Runner_Games_How_to_think_and_design_plus_some_history.php)
+**Leaderboard**
+
+Allows you to check the high scores in leaderboard.
+**Credits**
+
+ Shows you the credits scene, with everyone who helped me building this app;
+**Options**
+
+In the next screen, it allows you to mute the music and/or the sound;
+**Play Game**
+
+Starts the game.
+
 #### Scenes
 
-This game is composed by six scenes each one with its music:
+This game is composed by six scenes each one with its musics.
 ## Technologies used
 
 To create this game I used:
