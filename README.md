@@ -35,18 +35,18 @@ Link to a live version [here][live-version].
 Repository: https://github.com/arslanbisharat/PLATFORM_GAME
 
 ## The game
-First you can Add your name to the game.
+First, you can add your name to the game.
 
-This is a simple endless runner. Enemies appear walking towards you, some pursue you. You have to over-pass them. Just cross  as many enemies as you can before you you die. 
+This is a simple endless runner. Enemies appear walking towards you, some pursue you. You have to over-pass them. Just cross as many enemies as you can before you you die. 
 
 ### How to play
 
 First the most important: how to play.
 
-You can move right and left using right and left arrows, respectively and to jump use space.
+You can move right and left using right and left arrows, respectively, and to jump use space.
 
 
-You can play the game online clicking [here][live-version] or locally following these steps:
+You can play the game online by clicking [here][live-version] or locally following these steps:
 
 * Click on the green button "Clone or Download"
 * Click on Download ZIP
@@ -58,12 +58,12 @@ You can play the game online clicking [here][live-version] or locally following 
 
 ### Design
 
-First of all: this is a simple pixel game. You can't expect to see high-quality graphics. Or medium-quality graphics... So, the ship's designs are just a low-quality version of the orignal design.
+First of all: this is a simple pixel game. You can't expect to see high-quality graphics. Or medium-quality graphics... So, the ship's designs are just a low-quality version of the original design.
 
 The game is based on [Endless Runner Game](https://www.gamasutra.com/blogs/BenChong/20150112/233958/Endless_Runner_Games_How_to_think_and_design_plus_some_history.php)
 **Leaderboard**
 
-Allows you to check the high scores in leaderboard.
+Allows you to check the high scores on the leaderboard.
 **Credits**
 
  Shows you the credits scene, with everyone who helped me building this app;
@@ -76,7 +76,7 @@ Starts the game.
 
 #### Scenes
 
-This game is composed by six scenes each one with its musics.
+This game is composed of six scenes each one with its music.
 ## Technologies used
 
 To create this game I used:
@@ -98,7 +98,7 @@ To create this game I used:
 ## Future Work
 
 * Mobile version
-* Possibility to play with Milenium Falcon
+* Possibility to play with Millennium Falcon
 * Stage mode
 ## Learning Objectives
 
